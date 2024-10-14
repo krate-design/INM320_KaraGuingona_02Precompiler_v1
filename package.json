@@ -1,0 +1,17 @@
+{
+  "name": "inm320_karaguingona_02",
+  "version": "1.0.0",
+  "scripts": {
+    "goservergo": "lite-server --baseDir=\"public\"",
+    "karaisawesome": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run goservergo\"  \"npm run karaisawesome\""
+  },
+  "keywords": [],
+  "author": "Kara Marie Guingona",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.79.5"
+  }
+}
